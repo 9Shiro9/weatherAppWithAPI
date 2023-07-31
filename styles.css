@@ -1,0 +1,80 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2f0f4;
+  color: white;
+  font-size: 120%;
+  background-image: url("https://source.unsplash.com/random/1920x1080/?Tokyo");
+}
+
+.card {
+  background-color: #000000d0;
+  padding: 2.5em;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  margin: 1rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button {
+  height: 2.8em;
+  width: 2.8em;
+  border-radius: 50%;
+  padding: 3px;
+  border: none;
+  margin: 0.5em;
+  outline: none;
+  background-color: #7c7c7c2b;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #7c7c7c6b;
+  cursor: pointer;
+}
+
+.search-bar {
+  outline: none;
+  border: none;
+  padding: 9px;
+  border-radius: 12px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  transition: 0.3s ease-in-out;
+}
+
+.search-bar:hover {
+  background-color: #7c7c7c6b;
+}
+
+.description,
+.humidity,
+.wind {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 120%;
+}
+
+.weather {
+  display: none;
+}
+
+.loading {
+  content: "LOADING";
+}
